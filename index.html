@@ -1,0 +1,223 @@
+<!doctype html>
+<html lang="zh-Hant">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="吉祥．如藝（591 建案編號 135656）買房看屋與選戶極致觀察指南">
+  <title>吉祥．如藝｜買房看屋與選戶極致觀察指南</title>
+  <style>
+    :root {
+      --ink:#17212b; --muted:#65727e; --paper:#f7f5f0; --card:#fff;
+      --line:#dfe5e8; --brand:#0b6670; --brand-dark:#06454c;
+      --gold:#b47722; --gold-bg:#fff6df; --warn:#a23d25; --warn-bg:#fff0eb;
+      --ok:#176b4b; --ok-bg:#e9f7ef; --blue-bg:#eaf4f7; --shadow:0 12px 35px #17323b13;
+    }
+    *{box-sizing:border-box} html{scroll-behavior:smooth}
+    body{margin:0;background:var(--paper);color:var(--ink);font-family:system-ui,-apple-system,"Noto Sans TC","PingFang TC",sans-serif;line-height:1.75}
+    a{color:var(--brand);text-decoration:none} a:hover{text-decoration:underline}
+    .wrap{max-width:1220px;margin:auto;padding:0 22px}
+    .hero{color:#fff;background:linear-gradient(120deg,#063f48,#0b6670 57%,#bf8b3a);padding:62px 0 54px;position:relative;overflow:hidden}
+    .hero:after{content:"";position:absolute;inset:auto -100px -150px auto;width:440px;height:440px;border:1px solid #ffffff36;border-radius:50%;box-shadow:0 0 0 28px #ffffff0d,0 0 0 58px #ffffff08}
+    .eyebrow{letter-spacing:.14em;text-transform:uppercase;color:#d6f1ef;font-size:.78rem;font-weight:700}
+    h1{font-size:clamp(2rem,5vw,4.3rem);line-height:1.14;margin:14px 0 16px;letter-spacing:-.04em}
+    .hero p{max-width:780px;margin:0;color:#e4f3f2;font-size:1.08rem}
+    .hero-note{margin-top:24px;display:flex;gap:10px;flex-wrap:wrap}.pill{display:inline-flex;align-items:center;border:1px solid #ffffff45;border-radius:99px;padding:5px 12px;font-size:.84rem;color:#fff;background:#ffffff12}
+    nav{position:sticky;top:0;z-index:10;background:#fffffff2;border-bottom:1px solid var(--line);backdrop-filter:blur(12px)}
+    nav .wrap{display:flex;gap:5px;overflow:auto;padding-top:8px;padding-bottom:8px}nav a{white-space:nowrap;padding:8px 11px;border-radius:7px;font-size:.88rem;color:var(--muted)}nav a:hover{background:var(--blue-bg);text-decoration:none;color:var(--brand-dark)}
+    main{padding:34px 0 90px}section{scroll-margin-top:70px;margin:42px 0}h2{font-size:clamp(1.45rem,2.5vw,2.15rem);line-height:1.25;margin:0 0 15px;letter-spacing:-.025em}h3{font-size:1.18rem;line-height:1.4;margin:26px 0 9px}h4{margin:0 0 5px}.lead{font-size:1.04rem;color:#3f4b53;max-width:930px}
+    .grid{display:grid;gap:17px}.facts{grid-template-columns:repeat(auto-fit,minmax(165px,1fr));margin-top:28px}.card{background:var(--card);border:1px solid var(--line);border-radius:14px;padding:19px;box-shadow:var(--shadow)}.fact strong{display:block;font-size:1.48rem;color:var(--brand-dark);line-height:1.25}.fact span{font-size:.82rem;color:var(--muted)}
+    .two{grid-template-columns:repeat(2,minmax(0,1fr))}.three{grid-template-columns:repeat(3,minmax(0,1fr))}.five{grid-template-columns:repeat(5,minmax(0,1fr))}
+    @media(max-width:850px){.two,.three,.five{grid-template-columns:1fr 1fr}}@media(max-width:560px){.two,.three,.five{grid-template-columns:1fr}.wrap{padding:0 15px}.hero{padding:42px 0}.card{padding:16px}}
+    .section-kicker{color:var(--gold);font-weight:800;font-size:.8rem;letter-spacing:.12em}.source{font-size:.83rem;color:var(--muted);border-left:3px solid var(--gold);padding-left:13px}.source a{word-break:break-all}
+    table{width:100%;border-collapse:collapse;background:#fff;border:1px solid var(--line);border-radius:12px;overflow:hidden;font-size:.93rem}th,td{padding:12px 13px;border-bottom:1px solid var(--line);vertical-align:top;text-align:left}th{background:#edf4f4;color:var(--brand-dark);font-weight:800}tr:last-child td{border-bottom:0}tbody tr:hover{background:#fbfcfc}
+    .tag{display:inline-block;border-radius:5px;padding:2px 8px;font-size:.75rem;font-weight:800;white-space:nowrap}.tag.warn{background:var(--warn-bg);color:var(--warn)}.tag.gold{background:var(--gold-bg);color:#81520d}.tag.ok{background:var(--ok-bg);color:var(--ok)}.tag.blue{background:var(--blue-bg);color:var(--brand-dark)}
+    .callout{border-radius:12px;padding:16px 18px;margin:16px 0;border:1px solid}.callout.warn{background:var(--warn-bg);border-color:#f0c3b4}.callout.gold{background:var(--gold-bg);border-color:#edd29b}.callout.ok{background:var(--ok-bg);border-color:#bde2ca}.callout strong{display:block;margin-bottom:3px}
+    .gallery{grid-template-columns:repeat(auto-fit,minmax(235px,1fr))}.gallery figure{margin:0;background:#fff;border:1px solid var(--line);border-radius:12px;overflow:hidden;box-shadow:var(--shadow)}.gallery img{display:block;width:100%;aspect-ratio:1.5;object-fit:contain;background:#f1f1ee;cursor:zoom-in}.gallery figcaption{padding:12px 14px;font-size:.88rem}.gallery figcaption strong{display:block;color:var(--brand-dark)}
+    .wide-img{width:100%;max-height:620px;object-fit:contain;background:#fff;border:1px solid var(--line);border-radius:12px;padding:8px}
+    .score{display:flex;gap:4px;color:#d18a1a;letter-spacing:1px}.score em{font-style:normal;color:#c8d0d2}.mini{font-size:.83rem;color:var(--muted)}
+    .triples{display:grid;grid-template-columns:repeat(3,1fr);gap:12px}.triples>div{padding:14px;border-radius:9px}.look{background:var(--blue-bg)}.why{background:#f2f4f5}.standard{background:var(--ok-bg)}.triples h4{font-size:.92rem}.triples p{margin:0;font-size:.88rem}@media(max-width:700px){.triples{grid-template-columns:1fr}}
+    details{background:#fff;border:1px solid var(--line);border-radius:10px;margin:9px 0;padding:0 15px}summary{cursor:pointer;font-weight:800;padding:14px 0;color:var(--brand-dark)}details>div{padding:0 0 14px}.checklist{list-style:none;padding:0;margin:0}.checklist li{padding:8px 0 8px 26px;border-bottom:1px dashed var(--line);position:relative}.checklist li:last-child{border:0}.checklist li:before{content:"□";position:absolute;left:1px;color:var(--gold);font-size:1.1rem}
+    .number{display:inline-grid;place-items:center;width:31px;height:31px;border-radius:50%;background:var(--brand);color:#fff;font-weight:800;margin-right:7px}.rank{border-left:4px solid var(--gold)}.rank h3{margin-top:0}.rank p{margin:.25rem 0}.formula{font-family:ui-monospace,monospace;background:#f1f4f4;padding:10px 13px;border-radius:8px;display:block;overflow:auto;font-size:.9rem}
+    footer{background:#13343a;color:#d8e8e8;padding:36px 0;font-size:.85rem}footer p{margin:5px 0}footer a{color:#b9e3e1}
+    #lightbox{position:fixed;inset:0;background:#000b;display:none;align-items:center;justify-content:center;padding:20px;z-index:30}#lightbox.open{display:flex}#lightbox img{max-width:96vw;max-height:92vh;background:#fff;border-radius:8px}#lightbox button{position:absolute;right:18px;top:12px;background:none;border:0;color:#fff;font-size:2rem;cursor:pointer}
+    @media print{nav{display:none}.hero{color:#000;background:#fff;border-bottom:2px solid #000}.hero p,.pill{color:#000}.card,table{box-shadow:none}section{break-inside:avoid}}
+  </style>
+</head>
+<body>
+  <header class="hero">
+    <div class="wrap">
+      <div class="eyebrow">591 New House · H135656 · 現場驗證版</div>
+      <h1>吉祥．如藝<br>買房看屋與選戶極致觀察指南</h1>
+      <p>以預售屋格局圖、社區配置、台北氣候與交屋驗收的角度，拆解五款 3+1 房主推戶型。每一個結論都分成「圖面可判斷」與「必須到現場／看合約確認」，讓選戶不被漂亮家配圖牽著走。</p>
+      <div class="hero-note"><span class="pill">台北市信義區</span><span class="pill">地上 23／地下 7 層</span><span class="pill">469 戶住家＋15 戶店面事務所</span><span class="pill">預計 2029 下半年</span></div>
+    </div>
+  </header>
+  <nav><div class="wrap">
+    <a href="#summary">先看結論</a><a href="#plans">五戶型圖解</a><a href="#orientation">座向選戶</a><a href="#light">採光通風</a><a href="#rooms">房間樑柱</a><a href="#bath">浴室防潮</a><a href="#ac">冷氣室外機</a><a href="#hidden">隱藏重點</a><a href="#visit">看屋流程</a><a href="#sources">資料來源</a>
+  </div></nav>
+
+  <main class="wrap">
+    <section id="summary">
+      <div class="section-kicker">01 / 建案速讀</div><h2>先看結論：值得看，但要把「道路、棟距、管道與實際戶別」查實</h2>
+      <p class="lead">這是一個位於基隆路一段、具交通與地段優勢的住商用預售大樓。公開資料顯示具 SRC 鋼骨鋼筋混凝土結構、制震標籤與平面車位規劃；同時，基隆路與永吉路的車流、兩棟 469 戶的居住密度、預計 2029 年才交屋的長等待期，是購買前需要量化的成本。</p>
+      <div class="grid facts">
+        <div class="card fact"><strong>143–156</strong><span>公開單價／萬元・坪</span></div><div class="card fact"><strong>2,800–5,600</strong><span>公開總價／萬元・戶</span></div><div class="card fact"><strong>18–41</strong><span>規劃坪數／坪</span></div><div class="card fact"><strong>33.9%</strong><span>公開公設比</span></div><div class="card fact"><strong>1,061.17</strong><span>基地面積／坪</span></div><div class="card fact"><strong>416</strong><span>平面式車位（公開資料）</span></div><div class="card fact"><strong>1:0.86</strong><span>公開車位配比欄位</span></div><div class="card fact"><strong>160</strong><span>管理費預估／元・坪・月</span></div>
+      </div>
+      <div class="callout gold"><strong>✨ 暫定選戶策略</strong>平面圖單獨比較時，A10（38.63 坪）給的公共空間與收納餘裕最多；B1（35.59 坪、朝南）最適合偏好日照的人；B4（35.59 坪、3 衛）適合多人家庭，但必須把衛浴排風、管道間與實坪效率列為第一順位。B7、B10 的價值取決於北側 8 米巷的真實棟距、低樓層噪音與視線，不能只用「朝北」二字判斷。</div>
+      <div class="callout warn"><strong>⚠️ 目前不能由公開圖面確認的關鍵</strong>每一戶的實際樓層、座向角度、樑深與柱尺寸、開窗可開面積、管道間剖面、電梯數量、室外機平台是否計入權狀／雨遮坪、前方未來建築量體。這些項目要向建商索取建照圖、竣工圖說／配置圖、買賣契約附件與設備表，並在現場用羅盤、雷射測距與噪音觀察驗證。</div>
+    </section>
+
+    <section id="plans">
+      <div class="section-kicker">02 / 五張格局圖</div><h2>五個主推戶型：先比較「生活路徑」，再比較坪數</h2>
+      <p class="lead">以下資料是 591 頁面對各圖的標示。圖片是建商／平台的家配示意，家具尺寸與裝飾不等於交屋尺寸；真正簽約前，應要求帶有尺寸標註、柱樑、管道間、窗型與陽台界線的正式平面圖。</p>
+      <div class="grid gallery">
+        <figure><img src="https://img1.591.com.tw/house/2025/10/16/176060944010137106.jpg!900x.water3.jpg" alt="A10 3+1房 38.63坪 朝北格局圖"><figcaption><strong>A10｜38.63 坪・朝北・2 衛</strong>公共區較寬，房間與衛浴分散；重點查主樑、北側棟距、工作陽台與冷氣維修面。</figcaption></figure>
+        <figure><img src="https://img2.591.com.tw/house/2025/10/16/176060943910074306.jpg!900x.water3.jpg" alt="B1 3+1房 35.59坪 朝南格局圖"><figcaption><strong>B1｜35.59 坪・朝南・2 衛</strong>客餐廳採光潛力佳；重點查南向遮蔽、客餐廳深度、廚房排煙與房間雙邊落地。</figcaption></figure>
+        <figure><img src="https://img1.591.com.tw/house/2025/10/16/176060943828675208.jpg!900x.water3.jpg" alt="B4 3+1房 35.59坪 朝南格局圖"><figcaption><strong>B4｜35.59 坪・朝南・3 衛</strong>衛浴數量最有優勢；重點查三套衛浴是否都有有效排風、管道間防水與室內可用面積。</figcaption></figure>
+        <figure><img src="https://img2.591.com.tw/house/2025/10/16/176060943734866109.jpg!900x.water3.jpg" alt="B7 3+1房 35.15坪 朝北格局圖"><figcaption><strong>B7｜35.15 坪・朝北・2 衛</strong>公私分區明確；重點查北側巷道噪音、房間窗向、暗房可能性與樑柱落點。</figcaption></figure>
+        <figure><img src="https://img2.591.com.tw/house/2025/10/16/176060943650556307.jpg!900x.water3.jpg" alt="B10 3+1房 35.17坪 朝北格局圖"><figcaption><strong>B10｜35.17 坪・朝北・2 衛</strong>客餐廳集中且收納圖示完整；重點查廚房、衛浴、洗衣與室外機的維修路徑。</figcaption></figure>
+      </div>
+      <h3>五戶型比較表</h3>
+      <div style="overflow:auto"><table><thead><tr><th>戶型</th><th>面積／朝向</th><th>圖面優點</th><th>圖面風險</th><th>看屋時的第一個問題</th></tr></thead><tbody>
+        <tr><td><strong>A10</strong><br><span class="score">★★★★<em>★</em></span></td><td>38.63 坪<br>朝北</td><td>公共空間與房間的緩衝較充足；收納、工作／服務空間的配置餘裕較大。</td><td>面積較大，單價相同時總價、裝修與管理費較高；家配不代表尺寸。</td><td>北側窗外是巷道、鄰棟還是設備？主臥床頭與樑柱能否正式定位？</td></tr>
+        <tr><td><strong>B1</strong><br><span class="score">★★★★<em>★</em></span></td><td>35.59 坪<br>朝南</td><td>南向公共空間有日照與通風潛力；動線直觀，適合重視客餐廳明亮度的家庭。</td><td>南向不等於全年舒適；夏季日射、南側道路噪音、未來棟距都可能改變體感。</td><td>中午與傍晚分別站在南側窗前，實測眩光、熱感、車聲及對面視線。</td></tr>
+        <tr><td><strong>B4</strong><br><span class="score">★★★★<em>★</em></span></td><td>35.59 坪<br>朝南</td><td>三衛對多人家庭、長輩與訪客最方便；濕區相對集中，管線長度可能較容易控管。</td><td>多一間衛浴增加防水、排風、熱水與清潔維護點；三衛是否吃掉房間與走道寬度。</td><td>三個衛浴的排風出口、管道間尺寸、地坪洩水坡與維修門在哪裡？</td></tr>
+        <tr><td><strong>B7</strong><br><span class="score">★★★<em>★★</em></span></td><td>35.15 坪<br>朝北</td><td>公私分區清楚，臥室區較有獨立感；坪數與三房需求的平衡較好。</td><td>朝北採光更依賴窗前開闊度；若低樓層遇巷道、招牌或鄰棟，房間容易變成低亮度。</td><td>北向所有房間是否有真正對外窗？窗前 10 年內是否可能蓋高樓？</td></tr>
+        <tr><td><strong>B10</strong><br><span class="score">★★★<em>★★</em></span></td><td>35.17 坪<br>朝北</td><td>客餐廳集中，日常起居與待客動線短；房間與濕區安排有辨識度。</td><td>公共區若只有單一面採光，深處容易依賴人工照明；廚房、陽台、室外機動線要實測。</td><td>打開所有房門後，走道最窄處、冰箱門與洗衣機門是否互撞？</td></tr>
+      </tbody></table></div>
+      <h3>社區配置與外部環境</h3>
+      <img class="wide-img" src="https://img2.591.com.tw/house/2025/10/16/176060943537222801.jpg!900x.water3.jpg" alt="吉祥如藝社區平面配置圖">
+      <p class="mini">591 公開配置圖標示：北側 8 米巷、東側吉祥如藝 2 期、南側永吉路 30 米、西側基隆路 40 米；A、B 兩棟及各戶編號以原圖為準。請把本圖當作選戶的相對位置工具，最後仍以建照核定配置圖與現場測量為準。</p>
+    </section>
+
+    <section id="orientation">
+      <div class="section-kicker">03 / 戶別、座向與現代風水</div><h2>先辨「面向哪裡」，再談坐向吉凶</h2>
+      <p class="lead">現代居家風水可轉譯成五個可測量條件：光、風、熱、噪音、視線。傳統的「坐北朝南」只是一種方向描述，不等於每一戶都同樣舒適；高樓風場、前方棟距、窗面比例與道路位置，常比單一方位更能決定住感。</p>
+      <h3>當層排開怎麼挑戶</h3>
+      <div class="grid two"><div class="card rank"><h3><span class="number">1</span>先選外部條件</h3><p>看四面：哪一面是主要道路、巷道、鄰棟、校園、公園或未開發地。臥室靠安靜面，客廳靠採光與景觀面，廚房與浴室靠可維修的管道面。</p><p><span class="tag ok">✨ 優先</span> 轉角但非尖角、至少兩面有對外開口、主要房間不正對電梯門與垃圾間、窗前有可預期棟距。</p></div><div class="card rank"><h3><span class="number">2</span>再看戶與戶的關係</h3><p>避免大門正對電梯、梯間、消防門、垃圾間或兩戶門互撞；看公共走道是否把人流直接帶到主臥窗前。廚衛集中在共用管道旁有維修優勢，但也要防異味與排水聲。</p><p><span class="tag warn">⚠️ 優先排除</span> 電梯井貼主臥、垃圾間貼廚房／臥室、公共設施上方、戶門正對長走道盡端。</p></div><div class="card rank"><h3><span class="number">3</span>最後才選樓層</h3><p>低樓層查車流、招牌、行人視線與排風；中樓層查中繼水箱、機電層、車道斜坡；高樓層查風壓、窗框、熱負荷、消防避難與供水。</p><p><span class="tag gold">✨ 黃金做法</span> 同一戶別至少比較低、中、高三個樓層，要求看「樓層平面」而非只看標準層。</p></div><div class="card rank"><h3><span class="number">4</span>把價格放到最後算</h3><p>總價差必須和「多一面採光、少一個外部噪音源、可否放下家具、日後轉手接受度」對照；每增加一坪不一定等於增加可用面積。</p><p><span class="tag blue">計算</span> 總價＋車位＋裝修＋交屋款＋利息等待成本＋管理費，再比較有效生活面積。</p></div></div>
+      <h3>方位在台北的實務取捨</h3>
+      <div style="overflow:auto"><table><thead><tr><th>主要面向</th><th>可能優點</th><th>主要氣候風險</th><th>現場判斷</th></tr></thead><tbody>
+        <tr><td><strong>朝南</strong></td><td>冬季日照與自然採光通常較有利；室內乾燥機會較多。</td><td>夏季日射、眩光與室內升溫；南側大路可能有車聲。</td><td>上午、正午、傍晚各看一次；用窗簾不開的狀態感受熱輻射，查陽台深度、玻璃規格與遮陽。</td></tr>
+        <tr><td><strong>朝北</strong></td><td>直射熱較少，光線相對柔和；北側若開闊可有穩定散射光。</td><td>冬季東北季風、濕冷與低角度日照不足；巷道低樓層較容易受噪音干擾。</td><td>查窗的「可開面積」與風向；確認北面不是只看得到採光井或鄰棟牆面。</td></tr>
+        <tr><td><strong>朝東</strong></td><td>早晨光線好、午後熱負荷通常低於西向；適合早起生活。</td><td>早晨眩光；東北季風時可能有風雨灌入。</td><td>看東側窗是否直接對鄰棟、確認臥室窗簾與紗窗密合。</td></tr>
+        <tr><td><strong>朝西</strong></td><td>午後採光、冬季傍晚光線。</td><td>西曬是台北夏季最難靠通風解決的熱源；冷氣耗電與家具褪色。</td><td>看外遮陽、深陽台、Low-E 玻璃與西側是否為基隆路／高架／大樓反射面。</td></tr>
+        <tr><td><strong>東南／西南</strong></td><td>可能兼得部分日照與通風。</td><td>梅雨、颱風與夏季濕熱時，風雨方向及西南熱負荷要實測。</td><td>請建商提供窗向角度；不要用「朝南」標籤取代實際羅盤角度。</td></tr>
+      </tbody></table></div>
+      <h3>外煞的現代判讀與高低樓層避法</h3>
+      <div style="overflow:auto"><table><thead><tr><th>傳統稱呼</th><th>可驗證的現代問題</th><th>低樓層</th><th>高樓層</th><th>化解／選戶順序</th></tr></thead><tbody>
+        <tr><td>壁刀煞</td><td>鄰棟銳角、外牆轉折直接對窗，造成視線壓迫、風切與眩光。</td><td>確認角度是否被樹木、圍牆擋住；不要只靠低樓層「看不到」。</td><td>角線可能更完整地進入視野，風壓也較大。</td><td>優先換窗向或錯開角度；窗簾只能改善視線，不能消除風噪。</td></tr>
+        <tr><td>路沖</td><td>道路、巷道、車道出口或車燈直射客廳／主臥。</td><td>引擎、喇叭、行人與車燈最明顯。</td><td>噪音可能下降，但車燈與遠距視線仍在；查道路反射聲。</td><td>避開道路延長線；要求晚上實測，查看車道出口與消防通道。</td></tr>
+        <tr><td>天斬煞</td><td>兩棟建物間的狹長縫隙形成強烈風道、噪音與對望。</td><td>低樓層常被前景遮住，仍可能有回音與車流。</td><td>風速、窗框震動、雨水倒灌與視線穿透更需注意。</td><td>優先選縫隙側面而非正對縫隙；檢查玻璃、五金、外牆伸縮縫。</td></tr>
+        <tr><td>反弓煞</td><td>彎道外側車流靠近、車燈掃過，或河道／高架曲線帶來噪音。</td><td>車流與人流最直接。</td><td>視野可能漂亮但風噪與反射聲向上傳；不要只買景觀。</td><td>分時段測 dB；比較彎道內側、側面戶與有遮蔽物樓層。</td></tr>
+        <tr><td>尖角／招牌</td><td>商業招牌、設備、鐵塔或屋角遮窗、反光、持續閃爍。</td><td>視線與光害最明顯。</td><td>高度可能與招牌相等，晚上才暴露。</td><td>查都市計畫、招牌許可與鄰地建照；夜看一次。</td></tr>
+      </tbody></table></div>
+      <div class="callout ok"><strong>✨ 現代風水的黃金標準</strong>入門不直衝臥室；客廳有可調整的採光與通風；主臥床頭可靠完整實牆；衛浴有排風路徑；廚房不把油煙送入臥室；窗外不是持續噪音、車燈或設備排風；全屋有清楚、可維修的水電路徑。</div>
+    </section>
+
+    <section id="light">
+      <div class="section-kicker">04 / 房間開窗、採光與通風</div><h2>「有窗」只是起點，要看窗的大小、方向、深度與能不能真的打開</h2>
+      <div class="triples"><div class="look"><h4>看什麼</h4><p>量每間房的室內地坪與窗洞尺寸；標註窗台高度、窗扇可開比例、紗窗、外遮陽、對外距離與是否被樑／柱切斷。</p></div><div class="why"><h4>為什麼重要</h4><p>玻璃面積影響日照，真正可開的面積影響換氣；高窗、狹長窗或只對採光井的窗，體感與轉手接受度都會下降。</p></div><div class="standard"><h4>判斷標準</h4><p><span class="tag ok">✨</span> 臥室有完整對外窗、可開窗扇約占窗洞三分之一以上、窗前無近距離遮擋，並能形成跨向通風。</p></div></div>
+      <h3>圖面與現場的量化檢核</h3>
+      <div style="overflow:auto"><table><thead><tr><th>檢查</th><th>怎麼做</th><th>⚠️ 警訊</th><th>✨ 黃金標準</th></tr></thead><tbody>
+        <tr><td>窗／地比例</td><td>用正式尺寸圖估算「有效採光窗面積 ÷ 房間地坪」；把固定玻璃與被牆柱遮蔽部分分開。</td><td>窗洞很窄、只剩高窗；客廳深度大但窗集中在一端。</td><td>居室有連續採光面，常用房間不靠借光；比例僅作初篩，仍以建築師與法規檢核為準。</td></tr>
+        <tr><td>開窗方向</td><td>用手機羅盤記錄每一扇窗，並把北側巷、南側路、東側二期、西側基隆路標在圖上。</td><td>房間窗正對電梯、鄰棟窗、車道排風或垃圾集中處。</td><td>臥室朝安靜面、客廳朝開闊面，至少有兩個方向的自然空氣路徑。</td></tr>
+        <tr><td>通風路徑</td><td>開兩側窗／門，感受風向；用紙條或煙霧筆觀察氣流，勿在有瓦斯設備時使用明火。</td><td>所有窗都在同一面、室內門關閉就沒有換氣；廚房油煙進客廳。</td><td>能以兩個對外開口或窗＋排風形成可控換氣，門扇不會阻斷生活動線。</td></tr>
+        <tr><td>隱私與眩光</td><td>從窗內外互看，分早中晚；查對面窗距、陽台高度、招牌與車燈。</td><td>床位與鄰棟窗直接對望；白天必須長期關厚窗簾。</td><td>坐在床與沙發高度仍不被直接看見，紗窗／百葉即可調光。</td></tr>
+      </tbody></table></div>
+      <h3>暗房與間接採光</h3>
+      <p><strong>暗房</strong>是房間沒有直接對外窗，或實際採光不足以支持日間正常使用；<strong>間接採光</strong>是靠玻璃拉門、室內高窗、採光井或借用客廳光線。這不只涉及風水，還影響濕度、睡眠節律、心理壓力、家具發霉與未來轉售。</p>
+      <div class="grid three"><div class="card"><h4>可接受</h4><p>書房／多功能房有高窗或玻璃隔間，能打開或接到有效排風；使用者清楚接受其用途。</p></div><div class="card"><h4>需議價</h4><p>臥室只有借光、房門一關就全黑；要長期靠燈光與除濕機，應反映在價格與裝修預算。</p></div><div class="card"><h4>應排除</h4><p>合法用途標示為房間，但沒有對外窗、沒有獨立排風，也沒有正式採光說明。</p></div></div>
+    </section>
+
+    <section id="rooms">
+      <div class="section-kicker">05 / 房間、床位與樑柱</div><h2>先畫家具，再判斷「3+1」到底是不是可長住的四房</h2>
+      <p class="lead">家配圖裡的床、衣櫃與沙發常有美化比例。請用實際家具尺寸重畫：標準雙人床約 152 × 188 cm；床架、床頭板與走道還要額外留量。小房間標成「+1」時，尤其要確認能否放床、桌、衣櫃並保有開門淨寬。</p>
+      <div style="overflow:auto"><table><thead><tr><th>使用情境</th><th>建議淨尺寸／留量</th><th>判斷</th></tr></thead><tbody>
+        <tr><td>雙人床房</td><td>寬約 300–330 cm 以上較容易兩側下床；長約 330–360 cm 以上較能容納床尾走道與衣櫃。精準值要依床架、門窗與柱位重畫。</td><td><span class="tag ok">✨</span> 床兩側各約 60 cm 以上；床尾約 60–90 cm；衣櫃門與房門不互撞。</td></tr>
+        <tr><td>單人／兒童房</td><td>至少讓床、書桌、衣櫃形成不互撞的三段動線；窗下若有暖氣／窗台更要保留。</td><td><span class="tag warn">⚠️</span> 只塞得進床，沒有轉身、收納與逃生動線，不應當完整臥室估價。</td></tr>
+        <tr><td>+1 書房</td><td>以書桌 120–140 cm、椅後 80–90 cm、收納深 35–60 cm 重新畫。</td><td>可作書房不代表可作合法臥室；確認建照用途、窗與消防逃生。</td></tr>
+        <tr><td>走道與門</td><td>主要通道建議約 90 cm 以上；臥室門開啟後不可壓縮床側逃生面；滑門也要看牆內能否藏門片。</td><td><span class="tag warn">⚠️</span> 房門對房門、門扇互撞、走道被衣櫃凸出切成窄口。</td></tr>
+      </tbody></table></div>
+      <h3>床頭壓樑、壓柱：定義與修正成本</h3>
+      <div class="grid two"><div class="card"><h4>圖面怎麼辨識</h4><ul class="checklist"><li>要求樑柱圖，不只看家配圖；深色厚牆、矩形凸出與窗上方落差不一定就是樑，要由結構圖確認。</li><li>把床的四種方向都畫上去；床頭若只能放在樑下、柱旁或窗下，記為高風險。</li><li>看樑是否穿過床中央、枕頭上方、書桌或客廳電視牆，而非只看「有沒有樑」。</li><li>柱子在室內會吃掉可用面積、影響衣櫃深度與床側通行；柱子在外仍要查窗框、陽台與雨遮遮蔽。</li></ul></div><div class="card"><h4>風水與心理的合理解讀</h4><p>傳統上「壓樑」被視為壓迫；現代建築心理則關注視覺重量、低落差造成的壓迫感、碰撞風險、收納不能貼合，以及睡眠時持續感知的不安全感。兩者都應回到「能不能移床、修正要多少錢」來決策。</p><p><strong>裝潢修正成本邏輯：</strong>薄包板或平釘天花只改善視覺，可能犧牲淨高；移床成本最低，改衣櫃與天花中等，改結構不可行。若必須大面積降天花、加間接照明、移機電，應取得至少兩家報價後再議價。</p></div></div>
+      <div class="callout warn"><strong>⚠️ 不要用「做天花就化解」帶過</strong>樑下淨高、消防灑水、冷媒管、排水坡度與維修孔都可能被天花遮住。交屋前要求標示每一支樑、每一個檢修口，並確認裝潢後仍能開窗、開櫃門與維修。</div>
+      <h3>五戶型房間檢視重點</h3>
+      <div style="overflow:auto"><table><thead><tr><th>戶型</th><th>先畫哪一間</th><th>主要判斷</th></tr></thead><tbody>
+        <tr><td>A10</td><td>主臥＋中間房</td><td>面積較寬，優先查主臥床頭是否被窗／門／樑限制；中間房是否靠借光或被走道切碎。</td></tr>
+        <tr><td>B1</td><td>南側臥室群</td><td>房間窗是否真的朝南、有無完整開口；南曬下衣櫃與床能否避開直射。</td></tr>
+        <tr><td>B4</td><td>右側房間與三衛交界</td><td>衛浴牆是否造成房間凹角；三個衛浴門開啟後是否壓縮房間走道。</td></tr>
+        <tr><td>B7</td><td>北側兩間房</td><td>朝北窗的有效開窗與北側巷道棟距；低樓層是否會看到車流或鄰棟外牆。</td></tr>
+        <tr><td>B10</td><td>北側房間＋中央房</td><td>房間門、衣櫃與中央走道是否互撞；中央房的採光是否只來自公共區。</td></tr>
+      </tbody></table></div>
+    </section>
+
+    <section id="bath">
+      <div class="section-kicker">06 / 浴室、管道間與防潮</div><h2>有窗是加分；真正的防潮關鍵是「排風出口、管道防水與維修界面」</h2>
+      <div style="overflow:auto"><table><thead><tr><th>浴室類型</th><th>優點</th><th>風險</th><th>驗證方式</th></tr></thead><tbody>
+        <tr><td>對外窗</td><td>自然採光、可排濕、停電時仍有基本換氣。</td><td>窗向鄰棟／道路會影響隱私；風雨、窗框與外牆接縫是漏水點；窗太小或不可開，效果有限。</td><td>確認窗洞、可開扇、紗窗、窗台洩水、外牆防水層；看窗外是否真對外而非封閉井道。</td></tr>
+        <tr><td>無窗＋機械排風</td><td>隱私與外牆開口較少，平面較容易集中管線。</td><td>排風故障、逆止閥失效、共用管道異味、長期濕氣與霉菌；浴後需持續運轉。</td><td>確認風量、噪音、獨立風管／共用管道、逆止閥、排風出口與電源；交屋時用紙條測吸力。</td></tr>
+        <tr><td>對採光井／天井</td><td>可能取得部分光線與自然風。</td><td>不是完整對外；鄰戶排風、油煙、冷氣熱風與雨水可能集中。</td><td>站到實際樓層看井道剖面、寬度、上方是否封閉，並詢問清潔與防墜維修。</td></tr>
+      </tbody></table></div>
+      <h3>浴室現場檢查清單</h3>
+      <div class="grid three"><div class="card"><h4>管道間</h4><ul class="checklist"><li>管道間是否貼臥室床頭或客廳主牆。</li><li>維修門能否從公共區或室內開啟。</li><li>給水、排水、通氣、瓦斯與電管是否分區。</li><li>樓上排水聲與水錘聲是否可在樣品屋以外確認。</li></ul></div><div class="card"><h4>地坪與排水</h4><ul class="checklist"><li>淋浴區洩水坡是否朝排水孔，不向門口倒水。</li><li>地排有防臭存水彎與可清潔格柵。</li><li>馬桶、地排、管道穿牆處有完整防水收頭。</li><li>門檻、乾濕分離與浴櫃不堵排水。</li></ul></div><div class="card"><h4>排風與防霉</h4><ul class="checklist"><li>排風扇有獨立開關、延時或連動機制。</li><li>風管不是只排入天花或管道間。</li><li>風扇維修可拆、濾網可清。</li><li>浴室天花檢修孔不要被固定櫃遮死。</li></ul></div></div>
+      <div class="callout gold"><strong>✨ 交屋前的小測試</strong>在所有門窗關閉、排風開啟時，用薄紙靠近排風口；再關掉排風，檢查是否倒灌異味。淋浴區放少量清水觀察排水速度與是否積水。預售案不能現在測成品，就把測試方法、性能值與保固責任寫進驗收紀錄。</div>
+    </section>
+
+    <section id="ac">
+      <div class="section-kicker">07 / 冷氣室外機與維修</div><h2>室外機不是「有格柵就算完成」：要確認熱風、吊掛、排水與人員進出</h2>
+      <div class="triples"><div class="look"><h4>看什麼</h4><p>室外機平台位置、數量、格柵開口、冷媒管長度、冷凝水排水、吊架、維修門、陽台可用深度與鄰戶相對位置。</p></div><div class="why"><h4>為什麼重要</h4><p>格柵可能占用雨遮／陽台並被計入權狀或專有部分；熱風回吸會降效率，維修需攀爬或進鄰戶則是長期成本。</p></div><div class="standard"><h4>判斷標準</h4><p><span class="tag ok">✨</span> 每台有可拆格柵與安全維修站位；熱風排向室外開放面，不吹回自家窗、陽台或鄰戶；冷凝水有固定排水。</p></div></div>
+      <h3>五個必問問題</h3><ol><li><strong>是否計坪計價？</strong>要求列出室外機平台、雨遮、陽台、設備平台在權狀／買賣契約的面積與登記性質；不要以銷售口頭「不算室內」代替附件。</li><li><strong>維修誰能進？</strong>從室內、工作陽台、公共走道或吊籃？若需吊籃，查外牆合法作業、管理規約與未來費用。</li><li><strong>裝幾台、尺寸限制？</strong>問冷氣噸數、室外機尺寸、品牌限制、冷媒管預留與是否能換變頻多聯式。</li><li><strong>熱風吹哪裡？</strong>看格柵方向和鄰戶窗，留意兩台室外機上下相對、熱風回到陽台或直接吹行人。</li><li><strong>排水如何處理？</strong>冷凝水不可任意滴到公共區或鄰戶；問排水管坡度、存水與堵塞維修責任。</li></ol>
+      <div class="callout warn"><strong>⚠️ 維修孤兒警訊</strong>室外機在狹窄設備槽內、格柵不可拆、只能從窗外探身、冷媒管穿過封閉天花、沒有檢修口、或銷售說「交屋再想辦法」。這些項目應在平面圖與設備表中留下尺寸及做法，否則把最便宜的施工階段問題留成日後最昂貴的維修問題。</div>
+    </section>
+
+    <section id="hidden">
+      <div class="section-kicker">08 / 隱藏版買房重點</div><h2>樑柱、廚房、樓層、梯戶比與陽台：最容易影響長期生活的五個地方</h2>
+      <h3>樑柱結構：室內有效坪比權狀坪更重要</h3>
+      <div class="grid two"><div class="card"><h4>看圖</h4><ul class="checklist"><li>索取建築圖＋結構圖＋水電圖疊圖；同一位置同時看柱、樑、管道與窗。</li><li>量柱子突出深度，確認是否切到床側、沙發、餐桌、冰箱或衣櫃。</li><li>主樑穿過客廳中央、電視牆中央或臥室床頭，通常比靠牆樑更難處理。</li><li>確認柱子是室內柱、陽台柱、外牆柱還是共用結構，權狀登記與室內可用面積要分開理解。</li></ul></div><div class="card"><h4>黃金標準／警訊</h4><p><span class="tag ok">✨ 黃金</span> 柱靠外牆或收進櫃體，主樑沿牆走，主要家具面有完整直角。</p><p><span class="tag warn">⚠️ 警訊</span> 柱在房間中央、客餐廳被大樑切成低天花、柱旁需要訂製家具才能使用。訂製櫃與降天花費用要放進比較表。</p></div></div>
+      <h3>廚房：動線、排煙與水火距離一起看</h3>
+      <div class="grid three"><div class="card"><h4>黃金三角</h4><p>冰箱、洗槽、爐具形成短而不互撞的三角；每一段最好有連續備料檯面。開冰箱門不可堵住走道、廚房門或工作陽台。</p></div><div class="card"><h4>油煙與開窗</h4><p>開窗不是獨立廚房的同義詞；問排油煙機風量、風管直徑、出口位置、逆止閥與是否能接外氣。開放式廚房要看客廳、臥室與冷氣回風是否會吸油煙。</p></div><div class="card"><h4>水火關係</h4><p>以現代安全理解「水火不容」：洗槽與爐具不要緊貼，至少留備料區；避免水槽排水、瓦斯管與電器互相干擾，確認瓦斯偵測、給排水與維修孔。</p></div></div>
+      <h3>樓層：特殊層比單純高低更重要</h3>
+      <div style="overflow:auto"><table><thead><tr><th>樓層位置</th><th>要查什麼</th><th>⚠️ 風險</th><th>✨ 可接受條件</th></tr></thead><tbody>
+        <tr><td>低樓層／車道上方</td><td>車道斜坡、喇叭、尾燈、排風、垃圾間、店面與公共機電。</td><td>夜間噪音、震動、油煙、視線與落塵。</td><td>非直接位於坡道口／排風口上方，臥室避開車道牆，夜間實測。</td></tr>
+        <tr><td>中繼水箱／機電層上下</td><td>水箱、泵浦、風機、管道、樓板隔音與維修動線。</td><td>低頻震動、水流聲、熱源、進出人員與漏水維修。</td><td>上下至少錯開居室，機房有隔振、隔音與獨立防水，契約標註。</td></tr>
+        <tr><td>頂樓／屋突下方</td><td>屋頂防水層、隔熱、女兒牆、設備基座、排水口與保固。</td><td>日射熱、風雨、滲水、設備噪音與冷氣效率。</td><td>有完整屋頂剖面、保固、排水測試、隔熱層與可維修通道。</td></tr>
+        <tr><td>一般中高樓層</td><td>消防避難、風壓、窗框、外牆伸縮縫、供水壓力。</td><td>風切聲、窗框滲水、停水時供水與電梯等待。</td><td>窗框性能、外牆保固與機電維修責任清楚。</td></tr>
+      </tbody></table></div>
+      <h3>梯戶比與 469 戶的管理現實</h3>
+      <p>本案公開頁面顯示兩棟、469 戶住家及 15 戶店面／事務所，但目前公開資料未列出每棟電梯數量，不能直接宣稱「黃金梯戶比」。現場必問：每棟幾戶、幾部客梯、幾部貨梯、是否共用、尖峰等待、電梯尺寸、搬家動線、消防梯與管理費如何分攤。</p>
+      <div class="callout gold"><strong>✨ 實務門檻</strong>家庭住宅通常要把「每部電梯服務的戶數」與「是否有貨梯」一起看；戶數越多，越需要分棟、分梯、貨梯獨立且有明確搬家時段。最終門檻應用建商提供的電梯配置與管理規約計算，不能套用一個對所有社區相同的數字。</div>
+      <h3>陽台、工作陽台與洗曬動線</h3>
+      <ul class="checklist"><li>以實際機器尺寸重畫：洗衣機約寬 60–65 cm、深 60–70 cm；烘衣機疊放要加固定架、散熱與維修空間，實際以機型為準。</li><li>洗衣機門、陽台門、曬衣桿、排水孔與室外機格柵不能互撞；地面要有洩水坡，不讓水流進室內。</li><li>確認曬衣高度、日照時段與雨遮；北向或巷道側陽台可能潮濕、被鄰棟遮蔽。</li><li>工作陽台若是半戶外，問是否計坪、是否能裝窗、管理規約是否限制曬衣、冷氣與熱水器。</li><li>注意外牆管道、瓦斯熱水器排氣與衣物異味；不可為了收納封死必要通風。</li></ul>
+      <h3>本案還要補查的文件</h3>
+      <div style="overflow:auto"><table><thead><tr><th>文件</th><th>要對照的內容</th></tr></thead><tbody><tr><td>建造執照／核准圖說</td><td>戶別、用途、樓層、棟距、開窗、陽台、設備平台、停車位與公共設施。</td></tr><tr><td>買賣契約與附件</td><td>面積計算、共有部分、室外機／雨遮、建材設備、交屋標準、保固、付款與逾期責任。</td></tr><tr><td>結構／機電／消防圖</td><td>柱樑、管道間、排煙、排風、消防設備、機房、中繼水箱與維修孔。</td></tr><tr><td>管理規約草案</td><td>裝修時段、冷氣外機、曬衣、寵物、停車、電動車充電、公共設施使用與管理費。</td></tr><tr><td>地籍與都市計畫資訊</td><td>鄰地用途、道路計畫、都更／危老、公共工程、未來棟距與景觀可持續性。</td></tr></tbody></table></div>
+    </section>
+
+    <section id="visit">
+      <div class="section-kicker">09 / 實地看屋作戰流程</div><h2>一趟看屋不夠：至少做「日間、夜間、文件」三輪確認</h2>
+      <div class="grid three"><div class="card"><h3><span class="number">A</span>第一次：基地與社區</h3><ul class="checklist"><li>站在四個街角用手機羅盤記方向。</li><li>沿基隆路、永吉路、8 米巷與東側二期走一圈，錄音 60 秒。</li><li>拍下車道、排風、招牌、電塔、鄰棟窗、道路彎道與施工狀態。</li><li>向銷售索取 A／B 棟完整標準層及特殊層圖。</li></ul></div><div class="card"><h3><span class="number">B</span>第二次：戶別與生活</h3><ul class="checklist"><li>以膠帶在地面標雙人床、沙發、餐桌、冰箱、洗衣機。</li><li>開關所有窗門，測可開面積、風向、噪音與隱私。</li><li>查大門、房門、櫃門、冰箱門、浴室門是否互撞。</li><li>要求看室外機平台、管道間、排風出口與維修路徑。</li></ul></div><div class="card"><h3><span class="number">C</span>第三次：合約與成本</h3><ul class="checklist"><li>把單價、車位、管理費、裝修與貸款現金流一起計。</li><li>逐項圈出未定、依現場、以建商通知為準的文字。</li><li>把開窗、樑柱、設備尺寸、保固、交屋測試寫進附件或會議紀錄。</li><li>簽約前找建築／結構／驗屋專業者做一次獨立審閱。</li></ul></div></div>
+      <h3>一頁式現場記錄表</h3>
+      <div style="overflow:auto"><table><thead><tr><th>項目</th><th>實測／問答</th><th>結果</th><th>是否影響出價</th></tr></thead><tbody>
+        <tr><td>戶別／樓層／棟別</td><td>__________</td><td>□ 確認 □ 待文件</td><td>□ 是 □ 否</td></tr><tr><td>羅盤方向／窗前棟距</td><td>__________</td><td>□ 開闊 □ 遮擋</td><td>□ 是 □ 否</td></tr><tr><td>噪音（白天／晚上）</td><td>__________ dB／錄音檔：__________</td><td>□ 可接受 □ 複測</td><td>□ 是 □ 否</td></tr><tr><td>房間床位與樑柱</td><td>__________</td><td>□ 可放雙人床 □ 需改裝</td><td>□ 是 □ 否</td></tr><tr><td>窗、浴室、排風</td><td>__________</td><td>□ 對外窗 □ 機械排風 □ 待確認</td><td>□ 是 □ 否</td></tr><tr><td>冷氣／洗衣／曬衣</td><td>__________</td><td>□ 動線完整 □ 有維修風險</td><td>□ 是 □ 否</td></tr><tr><td>特殊樓層／鄰戶</td><td>__________</td><td>□ 一般 □ 機電／車道／頂樓</td><td>□ 是 □ 否</td></tr>
+      </tbody></table></div>
+      <h3>價格與選戶的簡化模型</h3><span class="formula">實際可用價值 ≈（採光通風分＋安靜隱私分＋家具可用分＋維修可及分＋未來轉手分）－（西曬／噪音／樑柱／濕氣／特殊樓層風險分）</span>
+      <p class="mini">每項 0–5 分，重大警訊直接扣分；再把總價、車位與裝修估價加入。這不是估價模型，而是避免「只因朝南或景觀漂亮就忽略功能性」的決策工具。</p>
+      <div class="callout ok"><strong>推薦決策順序</strong>先排除結構、漏水、排風、消防與不可逆噪音風險；再比較採光、通風、家具尺寸與維修；最後才用價格、景觀與風水偏好做取捨。若兩戶分數接近，選文件完整、可維修、未來用途彈性較大的那一戶。</div>
+    </section>
+
+    <section id="sources">
+      <div class="section-kicker">10 / 資料與使用說明</div><h2>來源、日期與限制</h2>
+      <p>本頁的建案欄位、戶型名稱、面積、朝向與圖片，依 591 新建案頁面於 2026-10-07 讀取的公開資訊整理。591 頁面的價格、銷售進度與戶別庫存會變動；圖片為家配示意，僅供比較，不能取代建照核准圖、正式契約或現場驗收。</p>
+      <div class="source"><strong>主要來源</strong><br><a href="https://newhouse.591.com.tw/135656" target="_blank" rel="noopener">591 建案主頁：吉祥．如藝（H135656）</a><br><a href="https://newhouse.591.com.tw/135656/layout?index=0&itm_source=newhouse&itm_medium=detail&itm_campaign=layout" target="_blank" rel="noopener">A10 格局頁</a> · <a href="https://newhouse.591.com.tw/135656/layout?index=1&itm_source=newhouse&itm_medium=detail&itm_campaign=layout" target="_blank" rel="noopener">B1 格局頁</a> · <a href="https://newhouse.591.com.tw/135656/layout?index=2&itm_source=newhouse&itm_medium=detail&itm_campaign=layout" target="_blank" rel="noopener">B4 格局頁</a> · <a href="https://newhouse.591.com.tw/135656/layout?index=3&itm_source=newhouse&itm_medium=detail&itm_campaign=layout" target="_blank" rel="noopener">B7 格局頁</a> · <a href="https://newhouse.591.com.tw/135656/layout?index=4&itm_source=newhouse&itm_medium=detail&itm_campaign=layout" target="_blank" rel="noopener">B10 格局頁</a></div>
+      <div class="callout warn"><strong>重要提醒</strong>本頁是看屋與選戶的實務整理，不是建築結構鑑定、法律意見、投資保證或醫療建議。真正簽約前，請以主管機關核准圖說、契約附件、建商書面答覆及獨立專業審閱為準。</div>
+    </section>
+  </main>
+  <footer><div class="wrap"><p><strong>吉祥．如藝｜買房看屋與選戶極致觀察指南</strong></p><p>Designed for GitHub Pages · 591 資料整理日期：2026-10-07</p><p>圖片與建案資料著作權歸原權利人；本頁僅以來源連結方式呈現，請遵守 591 使用規範。</p></div></footer>
+  <div id="lightbox" aria-label="圖片放大檢視"><button type="button" aria-label="關閉">×</button><img alt="放大格局圖"></div>
+  <script>
+    const box=document.getElementById('lightbox'), big=box.querySelector('img');
+    document.querySelectorAll('.gallery img,.wide-img').forEach(img=>img.addEventListener('click',()=>{big.src=img.src;big.alt=img.alt;box.classList.add('open')}));
+    box.addEventListener('click',e=>{if(e.target===box||e.target.tagName==='BUTTON')box.classList.remove('open')});
+    document.addEventListener('keydown',e=>{if(e.key==='Escape')box.classList.remove('open')});
+  </script>
+</body>
+</html>
